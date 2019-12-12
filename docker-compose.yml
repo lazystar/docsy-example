@@ -1,0 +1,10 @@
+version: '3'
+services:
+
+  docsy:
+    build: .docker
+    volumes:
+      - .:/www
+    ports:
+      - 1313:1313
+
